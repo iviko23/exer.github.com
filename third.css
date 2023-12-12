@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(Aesthetic-Laptop-Desktop-Wallpaper.jpg);
+   
+}
+#menu{
+    display: block;
+    padding: 0 20px 12px ;
+   
+    
+}
+#menu li{
+    position: relative;
+    list-style: none;
+    
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+}
+#menu .eb {
+    position: relative;
+    color: #ffffff;
+    margin: 8px;
+    text-decoration: none;
+   
+    
+   
+}
+ .ABD {
+   border: 3px solid rgb(255, 5, 5);
+   width: 150px;
+   height: 30px ;
+   text-align: center;
+   padding-top: 2px;
+   animation-name: myname ;
+
+}
+#menu .ABD:hover{
+    background-color: rgba(173, 224, 19, 0.882);
+    scale: 1.2;
+  
+}
+
+
+.contain{
+width: 500px;
+height: 400px;
+background:transparent;
+border: 4px solid rgb(231, 212, 10);
+border-radius: 50px; 
+color: #ffffff;
+
+}
+
+button{
+    width: 70%;
+    height: 7%;
+    background: rgb(189, 189, 189);
+}
+input{
+    border: 1px solid rgb(231, 212, 10);
+    width: 200px;
+    height: 35px;
+}
+button:hover{
+    background-color: aqua;
+    scale: 1.2;
+}

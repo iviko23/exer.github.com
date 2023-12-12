@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(pngtree-digital-technology-technology-lines-blue-technology-wind-picture-image_1476888.jpg);
+}
+#menu{
+    display: block;
+    padding: 0 20px 12px ;
+   
+    
+}
+#menu li{
+    position: relative;
+    list-style: none;
+    
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#menu .eb {
+    position: relative;
+    color: #ffffff;
+    margin: 8px;
+    text-decoration: none;
+   
+    
+   
+}
+ .ABD {
+   border: 1px solid rgb(12, 189, 238);
+   width: 150px;
+   height: 30px ;
+   text-align: center;
+   padding-top: 2px;
+
+
+}
+.CDE{
+    border: 1px solid rgb(12, 189, 238);
+   width: 150px;
+   height: 30px ;
+   text-align: center;
+   padding-top: 2px;  
+}
+.GHF{
+    border: 1px solid rgb(12, 189, 238);
+    width: 150px;
+    height: 30px ;
+    text-align: center;
+    padding-top: 2px;
+}
+
+ul .ABD, .CDE, .GHF{
+    margin: 18PX;
+   
+}
+
+#menu .ABD:hover{
+    background-color: rgba(254, 161, 0, 0.882);
+    scale: 1.2;
+  
+}
+#menu .CDE:hover{
+    background-color: rgba(254, 161, 0, 0.882);
+    scale: 1.2;
+  
+}
+#menu .GHF:hover{
+    background-color: rgba(254, 161, 0, 0.882);
+    scale: 1.2;
+}
+
+.image{
+    background-image: url(pngtree-abstract-red-grey-circuit-zoom-black-technology-design-modern-futuristic-background-image_1371679.jpg);
+    background-size: 2em;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    }
+    .word{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+     h1{
+        font-size: 26px;
+        margin-top: 50px;
+     }
+ 
+    .container{
+        border: 1px solid aqua;
+        width: 600px;
+        height: 400px;
+        justify-content: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+     
+    p {
+        margin-top: 80px;
+      
+    }
+    button {
+        border: 1px solid aqua;
+       width: 200px;
+       height: 30px;
+       background: transparent;
+       color: #ffffff;
+       border-radius: 25px;
+    }
+    button:hover{
+        background: black;
+        color: red;
+        scale: 1.3;
+    }
+    .dvd:hover{
+        background: black;
+        color: red;
+        scale: 1.3; 
+    }
+    .dvd{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    
+
+

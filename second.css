@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(963adc6cec85b0ffd4889be10f0c0031.jpg);
+}
+#menu{
+    display: block;
+    padding: 0 20px 12px ;
+   
+    
+}
+#menu li{
+    position: relative;
+    list-style: none;
+    
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#menu .eb {
+    position: relative;
+    color: #ffffff;
+    margin: 8px;
+    text-decoration: none;
+   
+    
+   
+}
+ .ABD {
+   border: 1px solid rgb(12, 189, 238);
+   width: 150px;
+   height: 30px ;
+   text-align: center;
+   padding-top: 2px;
+   animation-name: myname ;
+
+}
+.CDE{
+    border: 1px solid rgb(12, 189, 238);
+   width: 150px;
+   height: 30px ;
+   text-align: center;
+   padding-top: 2px;  
+}
+.GHF{
+    border: 1px solid rgb(12, 189, 238);
+    width: 150px;
+    height: 30px ;
+    text-align: center;
+    padding-top: 2px;
+}
+
+ul .ABD, .CDE, .GHF{
+    margin: 18PX;
+   
+}
+
+#menu .ABD:hover{
+    background-color: rgba(254, 161, 0, 0.882);
+    scale: 1.2;
+  
+}
+#menu .CDE:hover{
+    background-color: rgba(254, 161, 0, 0.882);
+    scale: 1.2;
+  
+}
+#menu .GHF:hover{
+    background-color: rgba(254, 161, 0, 0.882);
+    scale: 1.2;
+}
+.flex-container{
+     display: flex;
+     border: 1px solid rgb(180, 180, 180); 
+}
+.column{
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  
+}
+p, h1, h3{
+  margin: 20px ; 
+}
+
+h4{
+    transform: translateX(360px);
+    margin-top: -36px;
+    
+}
+
+h4, .bg{
+    color: #ffffff;
+    text-decoration: none;
+}
+.bg:hover{
+   color: aqua;
+}
+
+.color2{
+    flex-direction: column;
+    border: 1px solid rgb(180, 180, 180);
+    width: 400px;
+    height: 500px;
+    transform: translateY(-500px);
+}
+.gf{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.gf:hover{
+    color: aquamarine;
+}
+
+.color3{
+    border: 1px solid rgb(180, 180, 180);
+    width: 400px;
+    height: 500px;
+    transform: translateY(-1000px);
+    margin-left: 966px;
+}
+.sa {
+    color: #ffffff;
+}
+.nh{
+    color: #ffffff;
+    text-decoration: none;
+}
+.nh:hover{
+    color: rgb(170, 0, 255);
+}
